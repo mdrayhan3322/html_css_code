@@ -121,6 +121,7 @@ main section{
 }
 .item-description{
   font-weight:600;
+
 }
 /* skill secton style */
 .skills-container{
@@ -135,6 +136,49 @@ main section{
   
 
 }
+.resume-container{
+  display:flex;
+  gap:24px;
+}
+.experience-description{
+  color:#757575;
+}
+.experience-sub-title{
+  color:#757575;
+  font-size:20px;
+  font-weight:600px;
+  margin-bottom:20px;
+}
+.resume hr{
+  margin:30px 5px;
+}
+
+/* footer start */
+footer{
+  display:flex;
+  padding:13px 230px;
+  gap:100px;
+}
+
+.footer-column{
+  width:50%;
+
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+  height:64px;
+  border-radius:5px;
+  background-color:white;
+  display:block;
+  width:100%;
+  padding:10px 20px;
+  margin-bottom:24px;
+  border:none;
+  font-size:x-large;
+
+}
+
+
+
   
 
 
